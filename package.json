@@ -1,17 +1,16 @@
 {
-  "name": "hellonode",
-  "description": "A test Hello World application",
-  "scripts": {
+	"name": "HelloWorldNodeApp",
+	"version": "0.0.1",
+    "private": true,
+	"scripts": {
 		"start": "node app.js"
 	},
-  "dependencies": {
-  },
-  "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-jshint": "~0.6.3"
-  },
-  "engines": {
-    "node": "4.2.x"
-  },
-  "version": "0.0.1"
+	"dependencies": {
+		"express": "4.13.x",
+		"cfenv": "1.0.x"
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.2.x"
+	} 
 }
