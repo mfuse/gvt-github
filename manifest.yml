@@ -1,4 +1,4 @@
 ---
 applications:
 - name: hellonode
-  memory: 64M
+  memory: 128M
