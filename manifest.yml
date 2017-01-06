@@ -1,6 +1,0 @@
----
-applications:
-- name: hellonode
-  memory: 64M
-  command: node app.js
-  host: hellonode-fuse
