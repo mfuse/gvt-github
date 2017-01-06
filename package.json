@@ -1,6 +1,9 @@
 {
   "name": "hellonode",
   "description": "A test Hello World application",
+  "scripts": {
+		"start": "node app.js"
+	},
   "dependencies": {
   },
   "devDependencies": {
