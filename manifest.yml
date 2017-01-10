@@ -7,3 +7,5 @@ applications:
   domain: mybluemix.net
   path: .
   command: node app.js
+  buildpack: sdk-for-nodejs
+  
