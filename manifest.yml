@@ -1,4 +1,9 @@
 ---
 applications:
 - name: hellonode
-  memory: 128M
+  memory: 64M
+  instances: 1
+  host: hellonode-${random-word}
+  domain: mybluemix.net
+  path: .
+  command: node app.js
