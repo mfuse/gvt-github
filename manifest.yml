@@ -2,5 +2,6 @@
 applications:
 - name: node-hello-world
   memory: 128M
+  host: node-hello-world-${random-word}
   buildpack: sdk-for-nodejs
   
