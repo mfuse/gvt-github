@@ -1,9 +1,6 @@
 ---
 applications:
 - name: node-hello-world
-  instances: 1
-  host: node-hello-world-${random-word}
-  domain: mybluemix.net
   memory: 128M
   buildpack: sdk-for-nodejs
   
