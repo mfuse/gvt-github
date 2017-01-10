@@ -1,11 +1,6 @@
 ---
 applications:
-- name: hellonode
-  memory: 64M
-  instances: 1
-  host: hellonode-${random-word}
-  domain: mybluemix.net
-  path: .
-  command: node app.js
+- name: node-hello-world
+  memory: 128M
   buildpack: sdk-for-nodejs
   
